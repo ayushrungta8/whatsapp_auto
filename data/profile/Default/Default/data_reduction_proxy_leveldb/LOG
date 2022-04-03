@@ -1,3 +1,2 @@
-2022/04/03-21:53:02.259 2934 Recovering log #3
-2022/04/03-21:53:02.358 2934 Delete type=0 #3
-2022/04/03-21:53:02.358 2934 Delete type=3 #2
+2022/04/03-22:42:41.309 644 Creating DB E:\cohort\whatsapp_auto\data\profile\Default\Default\data_reduction_proxy_leveldb since it was missing.
+2022/04/03-22:42:42.934 644 Delete type=3 #1

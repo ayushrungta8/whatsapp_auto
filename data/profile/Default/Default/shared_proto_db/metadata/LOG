@@ -1,3 +1,2 @@
-2022/04/03-21:52:57.979 4ec4 Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\shared_proto_db\metadata/MANIFEST-000001
-2022/04/03-21:52:57.979 4ec4 Recovering log #3
-2022/04/03-21:52:57.979 4ec4 Reusing old log E:\cohort\whatsapp_auto\data\profile\Default\Default\shared_proto_db\metadata/000003.log 
+2022/04/03-22:42:38.867 516c Creating DB E:\cohort\whatsapp_auto\data\profile\Default\Default\shared_proto_db\metadata since it was missing.
+2022/04/03-22:42:39.618 516c Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\shared_proto_db\metadata/MANIFEST-000001

@@ -1,3 +1,2 @@
-2022/04/03-21:52:57.931 5244 Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\Site Characteristics Database/MANIFEST-000001
-2022/04/03-21:52:57.931 5244 Recovering log #3
-2022/04/03-21:52:57.938 5244 Reusing old log E:\cohort\whatsapp_auto\data\profile\Default\Default\Site Characteristics Database/000003.log 
+2022/04/03-22:42:38.387 5770 Creating DB E:\cohort\whatsapp_auto\data\profile\Default\Default\Site Characteristics Database since it was missing.
+2022/04/03-22:42:39.268 5770 Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\Site Characteristics Database/MANIFEST-000001
