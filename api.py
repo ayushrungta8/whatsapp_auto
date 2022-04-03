@@ -22,7 +22,11 @@ def heartbeat():
 
 
 @server.get("/send-message")
-def send_message(message: str, number: str):
+def send_message(message: str, number: str,password:str):
+    if password!="str@ongMedha":
+        return {
+            "message":"Wrong credentials"
+        }
     try:
         send_msg(number, message)
         return {
