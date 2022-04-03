@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 import time
 
 chrome_options = Options()
-chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--headless')
 chrome_options.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3163.100 Safari/537.36")
 chrome_options.add_argument('user-data-dir=data/profile')
 
@@ -32,4 +32,4 @@ def send_msg(contact,message):
         time.sleep(1)
         driver.close()
 
-send_msg('0000000000' ,'123')
+send_msg('8527768781' ,'123')
