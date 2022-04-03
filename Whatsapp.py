@@ -14,7 +14,7 @@ import os
 absolute_path = Path("./data/profile")
 absolute_path = os.path.abspath("./data/profile/Default")
 print(absolute_path)
-
+#This is just to force a redeploy
 chrome_options = Options()
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 # chrome_options.add_argument('--headless')
