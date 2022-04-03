@@ -1,0 +1,12 @@
+2022/04/03-21:52:59.324 3f0c Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/03-21:52:59.324 3f0c Recovering log #6
+2022/04/03-21:52:59.336 3f0c Reusing old log E:\cohort\whatsapp_auto\data\profile\Default\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000006.log 
+2022/04/03-21:52:59.336 3f0c Delete type=2 #5
+2022/04/03-21:52:59.336 3f0c Delete type=2 #7
+2022/04/03-21:53:07.248 303c Level-0 table #11: started
+2022/04/03-21:53:07.408 303c Level-0 table #11: 1076825 bytes OK
+2022/04/03-21:53:07.473 303c Delete type=0 #6
+2022/04/03-21:53:07.628 303c Compacting 1@1 + 1@2 files
+2022/04/03-21:53:07.848 303c Generated table #12@1: 27433 keys, 2043033 bytes
+2022/04/03-21:53:07.869 303c Compacted 1@1 + 1@2 files => 2043033 bytes
+2022/04/03-21:53:07.982 303c compacted to: files[ 0 0 1 0 0 0 0 ]

@@ -1,0 +1,12 @@
+2022/04/03-21:51:09.941 25d8 Creating DB E:\cohort\whatsapp_auto\data\profile\Default\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2022/04/03-21:51:10.343 25d8 Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/03-21:51:27.774 25d8 Level-0 table #5: started
+2022/04/03-21:51:28.011 25d8 Level-0 table #5: 1197972 bytes OK
+2022/04/03-21:51:28.261 25d8 Delete type=0 #3
+2022/04/03-21:51:31.837 3ba8 Level-0 table #7: started
+2022/04/03-21:51:31.961 3ba8 Level-0 table #7: 1222625 bytes OK
+2022/04/03-21:51:32.061 3ba8 Delete type=0 #4
+2022/04/03-21:51:32.478 4f44 Compacting 1@1 + 1@2 files
+2022/04/03-21:51:32.670 4f44 Generated table #8@1: 23954 keys, 1627187 bytes
+2022/04/03-21:51:32.692 4f44 Compacted 1@1 + 1@2 files => 1627187 bytes
+2022/04/03-21:51:32.744 4f44 compacted to: files[ 0 0 1 0 0 0 0 ]
