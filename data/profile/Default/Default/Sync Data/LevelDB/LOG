@@ -1,2 +1,3 @@
-2022/04/03-22:42:38.132 35c4 Creating DB E:\cohort\whatsapp_auto\data\profile\Default\Default\Sync Data\LevelDB since it was missing.
-2022/04/03-22:42:39.268 35c4 Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\Sync Data\LevelDB/MANIFEST-000001
+2022/04/16-15:20:38.944 2098 Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\Sync Data\LevelDB/MANIFEST-000001
+2022/04/16-15:20:38.945 2098 Recovering log #3
+2022/04/16-15:20:38.947 2098 Reusing old log E:\cohort\whatsapp_auto\data\profile\Default\Default\Sync Data\LevelDB/000003.log 

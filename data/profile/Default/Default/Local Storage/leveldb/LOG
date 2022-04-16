@@ -1,2 +1,3 @@
-2022/04/03-22:42:38.963 4f24 Creating DB E:\cohort\whatsapp_auto\data\profile\Default\Default\Local Storage\leveldb since it was missing.
-2022/04/03-22:42:39.664 4f24 Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\Local Storage\leveldb/MANIFEST-000001
+2022/04/16-15:20:39.059 3244 Reusing MANIFEST E:\cohort\whatsapp_auto\data\profile\Default\Default\Local Storage\leveldb/MANIFEST-000001
+2022/04/16-15:20:39.064 3244 Recovering log #3
+2022/04/16-15:20:39.065 3244 Reusing old log E:\cohort\whatsapp_auto\data\profile\Default\Default\Local Storage\leveldb/000003.log 

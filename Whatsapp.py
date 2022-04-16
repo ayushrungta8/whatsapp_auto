@@ -27,18 +27,22 @@ chrome_options.add_argument('user-data-dir={}'.format(absolute_path))
 
 def send_msg(contact,message):
     driver = webdriver.Chrome(executable_path="./driver/chromedriver" ,options=chrome_options)
-    wait = WebDriverWait(driver, 600)
+    try:
+        wait = WebDriverWait(driver, 600)
 
-    inp_xpath = '[title="Type a message"]'
-    
-    driver.get(f"https://web.whatsapp.com/send?phone=91{contact}")
-    a= driver.get_screenshot_as_file("screenshot.png")
-    input_box = wait.until(EC.presence_of_element_located((
-        By.CSS_SELECTOR, inp_xpath)))
-    input_box.click()
-    time.sleep(2)
-    input_box.send_keys(message + Keys.ENTER)
-    time.sleep(2)
-    driver.close()
+        inp_xpath = '[title="Type a message"]'
+        
+        driver.get(f"https://web.whatsapp.com/send?phone=91{contact}")
+        a= driver.get_screenshot_as_file("screenshot.png")
+        input_box = wait.until(EC.presence_of_element_located((
+            By.CSS_SELECTOR, inp_xpath)))
+        input_box.click()
+        time.sleep(2)
+        input_box.send_keys(message + Keys.ENTER)
+        time.sleep(2)
+        driver.close()
+    except Exception as e:
+        print(e)
+        driver.close()
 
 # send_msg('0000000000' ,'123')

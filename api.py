@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from Whatsapp import send_msg
-
+from fastapi import BackgroundTasks
 
 server = FastAPI()
 
@@ -22,13 +22,13 @@ def heartbeat():
 
 
 @server.get("/send-message")
-def send_message(message: str, number: str,password:str):
-    if password!="str@ongMedha":
+def send_message(message: str, number: str, password: str, bg: BackgroundTasks):
+    if password != "str@ongMedha":
         return {
-            "message":"Wrong credentials"
+            "message": "Wrong credentials"
         }
+    bg.add_task(send_msg, number, message)
     try:
-        send_msg(number, message)
         return {
             "message": "done"
         }
